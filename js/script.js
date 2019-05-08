@@ -83,7 +83,6 @@ playerPick.forEach(function (item) {
 
 
 function dragMoveListener (event) {
-	console.log(event)
 	let target = event.target,
 		// keep the dragged position in the data-x/data-y attributes
 		x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx,
@@ -140,7 +139,7 @@ function showModal(playerPick) {
 		
 		
 		function addMarker(location) {
-			const image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+			const image = './images/znacznik.png';
 			
 			const shape = {
 				coords: [1, 1, 1, 20, 18, 20, 18, 1],
