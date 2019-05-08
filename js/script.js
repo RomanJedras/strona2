@@ -4,10 +4,6 @@ const obj = {
 	items: []
 };
 
-
-console.log(window.innerWidth)
-
-
 const btn = document.getElementById('button');
 const header = document.getElementById('header');
 //const number = document.getElementById('number');
@@ -106,10 +102,6 @@ function dragMoveListener (event) {
 
 const playerMove = function (playerPick) {
 	obj.params = playerPick;
-	
-	if (window.innerWidth > 799) {
-	
-	}
 	
 	for (let i = 0; i < obj.items.length; i++) {
 		sqaure.classList.remove(obj.items[i]);
