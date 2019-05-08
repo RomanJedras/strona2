@@ -75,10 +75,6 @@ playerPick.forEach(function (item) {
 				this.querySelector('.accordionItemContent').classList.remove('accordionItem');
 			}
 			
-			// item.querySelector('.accordionItemContent').classList.remove('open');
-			// item.querySelector('.accordionItemContent').classList.add('close');
-			
-			
 			if (this.querySelector('span').innerText !== "") {
 				sqaure.innerHTML = this.querySelector('span').innerText;
 			} else {
