@@ -1,0 +1,53 @@
+{
+  "name": "strona",
+  "version": "1.0.0",
+  "description": "\"# strona\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html",
+    "init-project": "npm install && npm-run-all init:*",
+    "init:dirs": "mkdirp sass css vendor images js",
+    "init:files": "touch README.md index.html sass/style.scss js/script.js",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+    "build": "npm-run-all build:* test",
+    "build:clean": "rimraf css/*",
+    "build:sass": "node-sass --output-style compact -o css sass",
+    "build:autoprefixer": "autoprefixer-cli css/style.css",
+    "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
+    "browsersync": "browser-sync start --server --files css/*.css *.html",
+    "fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' ",
+    "fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' ",
+    "scss": "node-sass  --output-style compact  -watch  -o css sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanJedras/strona2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanJedras/strona2/issues"
+  },
+  "homepage": "https://github.com/RomanJedras/strona2#readme",
+  "devDependencies": {
+    "all": "0.0.0",
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.26.3",
+    "font-awesome": "^4.7.0",
+    "globstar": "^1.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-optimize-js": "^1.1.0",
+    "gulp-sass": "^4.0.2",
+    "html-validator-cli": "^6.0.0",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.11.0",
+    "normalize-css": "^2.3.1",
+    "stylelint": "^10.0.1"
+  },
+  "dependencies": {
+    "interactjs": "^1.4.0-rc.13"
+  }
+}
