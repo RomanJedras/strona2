@@ -31,15 +31,9 @@ let sqaure = document.querySelector(".t-our-methodology__square");
 let playerPick = document.querySelectorAll('.accordianheader');
 let accordionItem = document.querySelectorAll('.accordionItemContent');
 
-
-
-
 for(let i =0; i < accordionItem.length; i++) {
 	accordionItem[i].classList.add('close');
 }
-
-
-
 
 playerPick.forEach(function (item) {
 	
@@ -83,11 +77,8 @@ playerPick.forEach(function (item) {
 			
 			obj.items.push(this.getAttribute('data-show'));
 			 playerMove(this.getAttribute('data-show'));
-			
-			
 		});
 	}
-	
 });
 
 
@@ -118,16 +109,9 @@ const playerMove = function (playerPick) {
 	showModal(playerPick);
 };
 
-
-
-
 function showModal(playerPick) {
 	sqaure.classList.add(playerPick);
 }
-
-
-
-
 (function() {
 	window.initMap = function () {
 		const mapBox = document.getElementById('map');
@@ -197,14 +181,6 @@ function showModal(playerPick) {
 			btn.style.display = "none";
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 })();
 
 
