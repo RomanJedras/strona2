@@ -1,15 +1,12 @@
 .t-our-offerts {
-
   padding-bottom: $grid-base * 4;
   padding-top: $grid-base * 2;
-
 
   h2 {
     @include  medium-up {
       font-size: 36px;
     }
   }
-
 
   &__item {
     padding-bottom: $grid-base * 2;
@@ -23,7 +20,6 @@
       line-height: 30px;
       font-weight: bold;
     }
-
   }
 
   .charge {
@@ -52,7 +48,6 @@
     }
   }
 
-
   &--white {
     background-color: $white;
     height: auto;
@@ -64,6 +59,4 @@
       margin-bottom: $grid-base * 2.7;
     }
   }
-
-
 }

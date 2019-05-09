@@ -32,9 +32,7 @@
         left: $grid-base * 3.2;
         top: $grid-base * 4.3;
       }
-
   }
-
 
   &__container {
     position: relative;
@@ -43,15 +41,13 @@
     z-index: 1;
     margin: #{$grid-base * 5} auto 4px;
 
-
-      img {
-       @include  centererPos();
-       @include large-up {
+    img {
+      @include centererPos();
+      @include large-up {
         width: 90px;
         height: auto;
-       }
       }
-
+    }
   }
 
   &__container {

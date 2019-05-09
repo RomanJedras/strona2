@@ -244,37 +244,37 @@
 
 /* line 1, sass/07-templates/_our-contact.scss */ .t-our-contact { margin-bottom: 90px; }
 
-@media (min-width: 1200px) { /* line 3, sass/07-templates/_our-contact.scss */ .t-our-contact h3 { font-size: 50px; padding-bottom: 30px; } }
+@media (min-width: 1200px) { /* line 4, sass/07-templates/_our-contact.scss */ .t-our-contact h3 { font-size: 50px; padding-bottom: 30px; } }
 
-/* line 10, sass/07-templates/_our-contact.scss */ .t-our-contact__social { text-align: center; }
+/* line 11, sass/07-templates/_our-contact.scss */ .t-our-contact__social { text-align: center; }
 
-@media (min-width: 1200px) { /* line 15, sass/07-templates/_our-contact.scss */ .t-our-contact--note { margin: 0 172px; } }
+@media (min-width: 1200px) { /* line 16, sass/07-templates/_our-contact.scss */ .t-our-contact--note { margin: 0 172px; } }
 
-/* line 21, sass/07-templates/_our-contact.scss */ .t-our-contact textarea { width: 100%; }
+/* line 22, sass/07-templates/_our-contact.scss */ .t-our-contact textarea { width: 100%; }
 
-@media (min-width: 1200px) { /* line 21, sass/07-templates/_our-contact.scss */ .t-our-contact textarea { height: 211px !important; } }
+@media (min-width: 1200px) { /* line 22, sass/07-templates/_our-contact.scss */ .t-our-contact textarea { height: 211px !important; } }
 
-@media (min-width: 1200px) { /* line 28, sass/07-templates/_our-contact.scss */ .t-our-contact .fas, .t-our-contact .far { font-size: 2rem; color: #ebebeb; } }
+@media (min-width: 1200px) { /* line 29, sass/07-templates/_our-contact.scss */ .t-our-contact .fas, .t-our-contact .far { font-size: 2rem; color: #ebebeb; } }
 
 /* line 37, sass/07-templates/_our-contact.scss */ .t-our-contact .fa-pencil-alt { display: flex; }
 
 @media (min-width: 1200px) { /* line 37, sass/07-templates/_our-contact.scss */ .t-our-contact .fa-pencil-alt { position: relative; top: 80px; left: -10%; } }
 
-/* line 48, sass/07-templates/_our-contact.scss */ .t-our-contact__social { height: auto; }
+/* line 47, sass/07-templates/_our-contact.scss */ .t-our-contact__social { height: auto; }
 
-@media (min-width: 800px) { /* line 51, sass/07-templates/_our-contact.scss */ .t-our-contact__social .icons { left: -120px; position: relative; } }
+@media (min-width: 800px) { /* line 50, sass/07-templates/_our-contact.scss */ .t-our-contact__social .icons { left: -120px; position: relative; } }
 
-/* line 58, sass/07-templates/_our-contact.scss */ .t-our-contact__social--email { margin: 10px auto 0; font-size: 1rem; color: #FFF; }
+/* line 57, sass/07-templates/_our-contact.scss */ .t-our-contact__social--email { margin: 10px auto 0; font-size: 1rem; color: #FFF; }
 
-@media (min-width: 1200px) { /* line 58, sass/07-templates/_our-contact.scss */ .t-our-contact__social--email { margin: 60px auto 0; font-size: 1.125rem; } }
+@media (min-width: 1200px) { /* line 57, sass/07-templates/_our-contact.scss */ .t-our-contact__social--email { margin: 60px auto 0; font-size: 1.125rem; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 58, sass/07-templates/_our-contact.scss */ .t-our-contact__social--email { margin: 49px auto 0; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 57, sass/07-templates/_our-contact.scss */ .t-our-contact__social--email { margin: 49px auto 0; } }
 
-@media (min-width: 1200px) { /* line 58, sass/07-templates/_our-contact.scss */ .t-our-contact__social--email { font-size: 40px; } }
+@media (min-width: 1200px) { /* line 57, sass/07-templates/_our-contact.scss */ .t-our-contact__social--email { font-size: 40px; } }
 
-/* line 77, sass/07-templates/_our-contact.scss */ .fab { margin: 40px 20px 0; background-color: transparent; color: #FFF; font-size: 60px; }
+/* line 76, sass/07-templates/_our-contact.scss */ .fab { margin: 40px 20px 0; background-color: transparent; color: #FFF; font-size: 60px; }
 
-@media (min-width: 1200px) { /* line 77, sass/07-templates/_our-contact.scss */ .fab { margin: 50px 20px 0; padding: 10px; } }
+@media (min-width: 1200px) { /* line 76, sass/07-templates/_our-contact.scss */ .fab { margin: 50px 20px 0; padding: 10px; } }
 
 /* line 3, sass/07-templates/_site-header.scss */ .t-site-header--link { display: flex; justify-content: center; }
 
@@ -306,39 +306,39 @@
 
 @media (min-width: 1200px) { /* line 67, sass/07-templates/_site-header.scss */ .t-site-header__intro-text { font-size: 1.125rem; line-height: 1.65; margin-bottom: 60px; } }
 
-@media (min-width: 1200px) { /* line 82, sass/07-templates/_site-header.scss */ .t-site-content { margin-top: -70px; } }
+@media (min-width: 1200px) { /* line 81, sass/07-templates/_site-header.scss */ .t-site-content { margin-top: -70px; } }
 
-/* line 87, sass/07-templates/_site-header.scss */ .t-site-content h1 { font-size: 1.5rem; }
+/* line 86, sass/07-templates/_site-header.scss */ .t-site-content h1 { font-size: 1.5rem; }
 
-@media (min-width: 1200px) { /* line 87, sass/07-templates/_site-header.scss */ .t-site-content h1 { font-size: 3rem; } }
+@media (min-width: 1200px) { /* line 86, sass/07-templates/_site-header.scss */ .t-site-content h1 { font-size: 3rem; } }
 
-/* line 94, sass/07-templates/_site-header.scss */ .t-site-content h4 { font-size: 24px; }
+/* line 93, sass/07-templates/_site-header.scss */ .t-site-content h4 { font-size: 24px; }
 
-/* line 99, sass/07-templates/_site-header.scss */ .top-container { display: none; }
+/* line 98, sass/07-templates/_site-header.scss */ .top-container { display: none; }
 
 /* line 1, sass/07-templates/_our-oferts.scss */ .t-our-offerts { padding-bottom: 40px; padding-top: 20px; }
 
-@media (min-width: 800px) { /* line 7, sass/07-templates/_our-oferts.scss */ .t-our-offerts h2 { font-size: 36px; } }
+@media (min-width: 800px) { /* line 5, sass/07-templates/_our-oferts.scss */ .t-our-offerts h2 { font-size: 36px; } }
 
-/* line 14, sass/07-templates/_our-oferts.scss */ .t-our-offerts__item { padding-bottom: 20px; width: 100%; display: inline-block; position: relative; text-align: center; }
+/* line 11, sass/07-templates/_our-oferts.scss */ .t-our-offerts__item { padding-bottom: 20px; width: 100%; display: inline-block; position: relative; text-align: center; }
 
-/* line 21, sass/07-templates/_our-oferts.scss */ .t-our-offerts__item li { font-size: 16px; line-height: 30px; font-weight: bold; }
+/* line 18, sass/07-templates/_our-oferts.scss */ .t-our-offerts__item li { font-size: 16px; line-height: 30px; font-weight: bold; }
 
-/* line 29, sass/07-templates/_our-oferts.scss */ .t-our-offerts .charge { margin-left: 35px; margin-right: 35px; margin-bottom: 27px; }
+/* line 25, sass/07-templates/_our-oferts.scss */ .t-our-offerts .charge { margin-left: 35px; margin-right: 35px; margin-bottom: 27px; }
 
-/* line 35, sass/07-templates/_our-oferts.scss */ .t-our-offerts--gray { background-color: #ebebeb; }
+/* line 31, sass/07-templates/_our-oferts.scss */ .t-our-offerts--gray { background-color: #ebebeb; }
 
-/* line 39, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move { height: auto; padding: 20px; margin: 0 auto 20px; }
+/* line 35, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move { height: auto; padding: 20px; margin: 0 auto 20px; }
 
-@media (min-width: 800px) { /* line 39, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move { margin-bottom: 20px; } }
+@media (min-width: 800px) { /* line 35, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move { margin-bottom: 20px; } }
 
-/* line 45, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move__h { margin: 0 auto 20px; }
+/* line 41, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move__h { margin: 0 auto 20px; }
 
-@media (min-width: 1200px) { /* line 39, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move { margin: 27px 45px; } }
+@media (min-width: 1200px) { /* line 35, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move { margin: 27px 45px; } }
 
-/* line 56, sass/07-templates/_our-oferts.scss */ .t-our-offerts--white { background-color: #FFF; height: auto; }
+/* line 51, sass/07-templates/_our-oferts.scss */ .t-our-offerts--white { background-color: #FFF; height: auto; }
 
-@media (min-width: 1200px) { /* line 56, sass/07-templates/_our-oferts.scss */ .t-our-offerts--white { height: auto; margin-left: 35px; margin-right: 35px; margin-bottom: 27px; } }
+@media (min-width: 1200px) { /* line 51, sass/07-templates/_our-oferts.scss */ .t-our-offerts--white { height: auto; margin-left: 35px; margin-right: 35px; margin-bottom: 27px; } }
 
 /* line 1, sass/07-templates/_our_map.scss */ .t-our-map { margin-bottom: 50px; }
 
@@ -354,21 +354,21 @@
 
 /* line 27, sass/07-templates/_our-technologies.scss */ .t-our-technologies h3::after { content: ""; position: absolute; border-bottom: 1px solid #3b9df3; width: 123px; left: 32px; top: 43px; }
 
-/* line 39, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container { position: relative; max-width: 587px; height: 206px; z-index: 1; margin: 50px auto 4px; }
+/* line 37, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container { position: relative; max-width: 587px; height: 206px; z-index: 1; margin: 50px auto 4px; }
 
-/* line 47, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container img { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+/* line 44, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container img { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
-@media (min-width: 1200px) { /* line 47, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container img { width: 90px; height: auto; } }
+@media (min-width: 1200px) { /* line 44, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container img { width: 90px; height: auto; } }
 
-/* line 57, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container { perspective: 1000; }
+/* line 53, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container { perspective: 1000; }
 
-/* line 61, sass/07-templates/_our-technologies.scss */ .t-our-technologies__card { width: 100%; height: 100%; transform-style: preserve-3d; transition: all 1.0s linear; }
+/* line 57, sass/07-templates/_our-technologies.scss */ .t-our-technologies__card { width: 100%; height: 100%; transform-style: preserve-3d; transition: all 1.0s linear; }
 
-/* line 68, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container:hover .t-our-technologies__card { transform: rotateY(180deg); box-shadow: -5px 5px 5px #aaa; }
+/* line 64, sass/07-templates/_our-technologies.scss */ .t-our-technologies__container:hover .t-our-technologies__card { transform: rotateY(180deg); box-shadow: -5px 5px 5px #aaa; }
 
-/* line 73, sass/07-templates/_our-technologies.scss */ .t-our-technologies .face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background-color: #FFF; }
+/* line 69, sass/07-templates/_our-technologies.scss */ .t-our-technologies .face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; background-color: #FFF; }
 
-/* line 81, sass/07-templates/_our-technologies.scss */ .t-our-technologies .face.back { display: block; transform: rotateY(180deg); box-sizing: border-box; padding: 10px; color: white; text-align: center; background-color: #FFF; }
+/* line 77, sass/07-templates/_our-technologies.scss */ .t-our-technologies .face.back { display: block; transform: rotateY(180deg); box-sizing: border-box; padding: 10px; color: white; text-align: center; background-color: #FFF; }
 
 /* line 1, sass/07-templates/_our-teams.scss */ .t-our-teams { margin-top: 50px; }
 
@@ -382,11 +382,11 @@
 
 @media (max-width: 800px) and (min-width: 400px) { /* line 17, sass/07-templates/_our-teams.scss */ .t-our-teams--content { text-align: center; width: 60%; margin: 0 auto; } }
 
-/* line 28, sass/07-templates/_our-teams.scss */ .t-our-teams__name { color: #787878; }
+/* line 26, sass/07-templates/_our-teams.scss */ .t-our-teams__name { color: #787878; }
 
-@media (min-width: 1200px) { /* line 28, sass/07-templates/_our-teams.scss */ .t-our-teams__name { padding: 0 35px; font-size: 21px; } }
+@media (min-width: 1200px) { /* line 26, sass/07-templates/_our-teams.scss */ .t-our-teams__name { padding: 0 35px; font-size: 21px; } }
 
-/* line 36, sass/07-templates/_our-teams.scss */ .t-our-teams__jobs { color: #0099ff; font-size: 20px; }
+/* line 34, sass/07-templates/_our-teams.scss */ .t-our-teams__jobs { color: #0099ff; font-size: 20px; }
 
 /* line 1, sass/07-templates/_our-methodology.scss */ .t-our-methodology { margin-top: 58px; margin-bottom: 10px; cursor: pointer; }
 
@@ -404,7 +404,7 @@
 
 /* line 31, sass/07-templates/_our-methodology.scss */ .t-our-methodology h3:focus { width: 75%; }
 
-/* line 36, sass/07-templates/_our-methodology.scss */ .t-our-methodology--size { font-size: 44px; position: absolute; top: -7px; right: 21px; opacity: .5; }
+/* line 36, sass/07-templates/_our-methodology.scss */ .t-our-methodology--size { font-size: 44px; position: absolute; top: -13px; right: 21px; opacity: .5; }
 
 @media (min-width: 1200px) { /* line 36, sass/07-templates/_our-methodology.scss */ .t-our-methodology--size { font-size: 90px; font-weight: bold; top: -24px; right: 0; opacity: .2; } }
 
@@ -414,141 +414,141 @@
 
 @media (min-width: 800px) { /* line 58, sass/07-templates/_our-methodology.scss */ .t-our-methodology__border--none { border: none; } }
 
-@media (min-width: 800px) { /* line 67, sass/07-templates/_our-methodology.scss */ .t-our-methodology__square { position: absolute; background-color: #0099ff; width: 65px; height: 68px; transform: translate(30%, 10%); left: 88%; bottom: 22px; z-index: 1; } }
+@media (min-width: 800px) { /* line 68, sass/07-templates/_our-methodology.scss */ .t-our-methodology__square { position: absolute; background-color: #0099ff; width: 65px; height: 68px; transform: translate(30%, 10%); left: 88%; bottom: 22px; z-index: 1; } }
 
-@media (min-width: 800px) and (min-width: 800px) and (max-width: 1199px) { /* line 67, sass/07-templates/_our-methodology.scss */ .t-our-methodology__square { width: 53px; height: 51px; bottom: 0; font-size: 32px; } }
+@media (min-width: 800px) and (min-width: 800px) and (max-width: 1199px) { /* line 68, sass/07-templates/_our-methodology.scss */ .t-our-methodology__square { width: 53px; height: 51px; bottom: 0; font-size: 32px; } }
 
-@media (min-width: 800px) and (min-width: 1200px) { /* line 67, sass/07-templates/_our-methodology.scss */ .t-our-methodology__square { width: 60px; height: 60px; font-size: 44px; left: 91%; } }
+@media (min-width: 800px) and (min-width: 1200px) { /* line 68, sass/07-templates/_our-methodology.scss */ .t-our-methodology__square { width: 60px; height: 60px; font-size: 44px; left: 91%; } }
 
-/* line 95, sass/07-templates/_our-methodology.scss */ .t-our-methodology .trans, .t-our-methodology .price, .t-our-methodology .contact, .t-our-methodology .def, .t-our-methodology .cod, .t-our-methodology .test, .t-our-methodology .wiz, .t-our-methodology .admin, .t-our-methodology .fin, .t-our-methodology .dor { transition: bottom 4s ease 0s; }
+/* line 96, sass/07-templates/_our-methodology.scss */ .t-our-methodology .trans, .t-our-methodology .price, .t-our-methodology .contact, .t-our-methodology .def, .t-our-methodology .cod, .t-our-methodology .test, .t-our-methodology .wiz, .t-our-methodology .admin, .t-our-methodology .fin, .t-our-methodology .dor { transition: bottom 4s ease 0s; }
 
-@media (min-width: 1200px) { /* line 99, sass/07-templates/_our-methodology.scss */ .t-our-methodology .price { bottom: 120px; } }
+@media (min-width: 1200px) { /* line 100, sass/07-templates/_our-methodology.scss */ .t-our-methodology .price { bottom: 120px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 99, sass/07-templates/_our-methodology.scss */ .t-our-methodology .price { bottom: 46px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 100, sass/07-templates/_our-methodology.scss */ .t-our-methodology .price { bottom: 46px; } }
 
-@media (min-width: 1200px) { /* line 109, sass/07-templates/_our-methodology.scss */ .t-our-methodology .contact, .t-our-methodology .def { bottom: 45px; } }
+@media (min-width: 1200px) { /* line 110, sass/07-templates/_our-methodology.scss */ .t-our-methodology .contact, .t-our-methodology .def { bottom: 45px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 109, sass/07-templates/_our-methodology.scss */ .t-our-methodology .contact, .t-our-methodology .def { bottom: 20px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 110, sass/07-templates/_our-methodology.scss */ .t-our-methodology .contact, .t-our-methodology .def { bottom: 20px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 121, sass/07-templates/_our-methodology.scss */ .t-our-methodology .contact { bottom: 0; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 122, sass/07-templates/_our-methodology.scss */ .t-our-methodology .contact { bottom: 0; } }
 
-@media (min-width: 1200px) { /* line 127, sass/07-templates/_our-methodology.scss */ .t-our-methodology .cod { bottom: 191px; } }
+@media (min-width: 1200px) { /* line 128, sass/07-templates/_our-methodology.scss */ .t-our-methodology .cod { bottom: 191px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 127, sass/07-templates/_our-methodology.scss */ .t-our-methodology .cod { bottom: 90px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 128, sass/07-templates/_our-methodology.scss */ .t-our-methodology .cod { bottom: 90px; } }
 
-@media (min-width: 1200px) { /* line 137, sass/07-templates/_our-methodology.scss */ .t-our-methodology .test { bottom: 274px; } }
+@media (min-width: 1200px) { /* line 138, sass/07-templates/_our-methodology.scss */ .t-our-methodology .test { bottom: 274px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 137, sass/07-templates/_our-methodology.scss */ .t-our-methodology .test { bottom: 134px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 138, sass/07-templates/_our-methodology.scss */ .t-our-methodology .test { bottom: 134px; } }
 
-@media (min-width: 1200px) { /* line 147, sass/07-templates/_our-methodology.scss */ .t-our-methodology .wiz { bottom: 146px; } }
+@media (min-width: 1200px) { /* line 148, sass/07-templates/_our-methodology.scss */ .t-our-methodology .wiz { bottom: 146px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 147, sass/07-templates/_our-methodology.scss */ .t-our-methodology .wiz { bottom: 86px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 148, sass/07-templates/_our-methodology.scss */ .t-our-methodology .wiz { bottom: 86px; } }
 
-@media (min-width: 1200px) { /* line 157, sass/07-templates/_our-methodology.scss */ .t-our-methodology .admin { bottom: 221px; } }
+@media (min-width: 1200px) { /* line 158, sass/07-templates/_our-methodology.scss */ .t-our-methodology .admin { bottom: 221px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 157, sass/07-templates/_our-methodology.scss */ .t-our-methodology .admin { bottom: 139px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 158, sass/07-templates/_our-methodology.scss */ .t-our-methodology .admin { bottom: 139px; } }
 
-@media (min-width: 1200px) { /* line 167, sass/07-templates/_our-methodology.scss */ .t-our-methodology .fin { bottom: 293px; } }
+@media (min-width: 1200px) { /* line 168, sass/07-templates/_our-methodology.scss */ .t-our-methodology .fin { bottom: 293px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 167, sass/07-templates/_our-methodology.scss */ .t-our-methodology .fin { bottom: 185px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 168, sass/07-templates/_our-methodology.scss */ .t-our-methodology .fin { bottom: 185px; } }
 
-@media (min-width: 1200px) { /* line 177, sass/07-templates/_our-methodology.scss */ .t-our-methodology .dor { bottom: 312px; } }
+@media (min-width: 1200px) { /* line 178, sass/07-templates/_our-methodology.scss */ .t-our-methodology .dor { bottom: 312px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 177, sass/07-templates/_our-methodology.scss */ .t-our-methodology .dor { bottom: 192px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 178, sass/07-templates/_our-methodology.scss */ .t-our-methodology .dor { bottom: 192px; } }
 
-/* line 188, sass/07-templates/_our-methodology.scss */ .t-our-methodology .narrow, .t-our-methodology .t-our-methodology__dor, .t-our-methodology .t-our-methodology__test, .t-our-methodology .t-our-methodology__price, .t-our-methodology .t-our-methodology__contact, .t-our-methodology .t-our-methodology__cod, .t-our-methodology .t-our-methodology__fin, .t-our-methodology .t-our-methodology__admin, .t-our-methodology .t-our-methodology__wiz, .t-our-methodology .t-our-methodology__def { position: relative; padding: 10px; border-bottom: 1px solid #bfbfbf; top: 50%; }
+/* line 189, sass/07-templates/_our-methodology.scss */ .t-our-methodology .narrow, .t-our-methodology .t-our-methodology__dor, .t-our-methodology .t-our-methodology__test, .t-our-methodology .t-our-methodology__price, .t-our-methodology .t-our-methodology__contact, .t-our-methodology .t-our-methodology__cod, .t-our-methodology .t-our-methodology__fin, .t-our-methodology .t-our-methodology__admin, .t-our-methodology .t-our-methodology__wiz, .t-our-methodology .t-our-methodology__def { position: relative; padding: 10px; border-bottom: 1px solid #bfbfbf; top: 50%; }
 
-@media (min-width: 1200px) { /* line 188, sass/07-templates/_our-methodology.scss */ .t-our-methodology .narrow, .t-our-methodology .t-our-methodology__dor, .t-our-methodology .t-our-methodology__test, .t-our-methodology .t-our-methodology__price, .t-our-methodology .t-our-methodology__contact, .t-our-methodology .t-our-methodology__cod, .t-our-methodology .t-our-methodology__fin, .t-our-methodology .t-our-methodology__admin, .t-our-methodology .t-our-methodology__wiz, .t-our-methodology .t-our-methodology__def { transform: translate(-50%, -50%); } }
+@media (min-width: 1200px) { /* line 189, sass/07-templates/_our-methodology.scss */ .t-our-methodology .narrow, .t-our-methodology .t-our-methodology__dor, .t-our-methodology .t-our-methodology__test, .t-our-methodology .t-our-methodology__price, .t-our-methodology .t-our-methodology__contact, .t-our-methodology .t-our-methodology__cod, .t-our-methodology .t-our-methodology__fin, .t-our-methodology .t-our-methodology__admin, .t-our-methodology .t-our-methodology__wiz, .t-our-methodology .t-our-methodology__def { transform: translate(-50%, -50%); } }
 
-/* line 208, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3, .t-our-methodology__test h3, .t-our-methodology__price h3, .t-our-methodology__contact h3, .t-our-methodology__cod h3 { position: relative; color: #9e9e9e; }
+/* line 209, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3, .t-our-methodology__test h3, .t-our-methodology__price h3, .t-our-methodology__contact h3, .t-our-methodology__cod h3 { position: relative; color: #9e9e9e; }
 
-@media (min-width: 1200px) { /* line 208, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3, .t-our-methodology__test h3, .t-our-methodology__price h3, .t-our-methodology__contact h3, .t-our-methodology__cod h3 { font-size: 36px; font-weight: normal; text-align: right; } }
+@media (min-width: 1200px) { /* line 209, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3, .t-our-methodology__test h3, .t-our-methodology__price h3, .t-our-methodology__contact h3, .t-our-methodology__cod h3 { font-size: 36px; font-weight: normal; text-align: right; } }
 
-/* line 217, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3:hover, .t-our-methodology__test h3:hover, .t-our-methodology__price h3:hover, .t-our-methodology__contact h3:hover, .t-our-methodology__cod h3:hover { color: #0099ff; }
+/* line 218, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3:hover, .t-our-methodology__test h3:hover, .t-our-methodology__price h3:hover, .t-our-methodology__contact h3:hover, .t-our-methodology__cod h3:hover { color: #0099ff; }
 
-/* line 229, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3, .t-our-methodology__admin h3, .t-our-methodology__wiz h3, .t-our-methodology__def h3 { font-size: 1rem; position: relative; color: #9e9e9e; }
+/* line 230, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3, .t-our-methodology__admin h3, .t-our-methodology__wiz h3, .t-our-methodology__def h3 { font-size: 1rem; position: relative; color: #9e9e9e; }
 
-@media (min-width: 1200px) { /* line 229, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3, .t-our-methodology__admin h3, .t-our-methodology__wiz h3, .t-our-methodology__def h3 { font-size: 36px; font-weight: normal; text-align: left; } }
+@media (min-width: 1200px) { /* line 230, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3, .t-our-methodology__admin h3, .t-our-methodology__wiz h3, .t-our-methodology__def h3 { font-size: 36px; font-weight: normal; text-align: left; } }
 
-/* line 239, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3:hover, .t-our-methodology__admin h3:hover, .t-our-methodology__wiz h3:hover, .t-our-methodology__def h3:hover { color: #0099ff; }
+/* line 240, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3:hover, .t-our-methodology__admin h3:hover, .t-our-methodology__wiz h3:hover, .t-our-methodology__def h3:hover { color: #0099ff; }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 244, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin .accordionItemContent, .t-our-methodology__admin .accordionItemContent, .t-our-methodology__wiz .accordionItemContent, .t-our-methodology__def .accordionItemContent { width: 40%; top: 158px; left: 630px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 245, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin .accordionItemContent, .t-our-methodology__admin .accordionItemContent, .t-our-methodology__wiz .accordionItemContent, .t-our-methodology__def .accordionItemContent { width: 40%; top: 158px; left: 630px; } }
 
-/* line 254, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { z-index: 117; }
+/* line 255, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { z-index: 117; }
 
-@media (min-width: 1200px) { /* line 254, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { z-index: 98; } }
+@media (min-width: 1200px) { /* line 255, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { z-index: 98; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 254, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { z-index: 212; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 255, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { z-index: 212; } }
 
-@media (min-width: 1200px) { /* line 254, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { width: 80%; left: 253px; } }
+@media (min-width: 1200px) { /* line 255, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { width: 80%; left: 253px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 254, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { width: 80%; left: 38px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 255, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod { width: 80%; left: 38px; } }
 
-@media (min-width: 1200px) { /* line 274, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod h3 { left: -85px; } }
+@media (min-width: 1200px) { /* line 275, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod h3 { left: -85px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 280, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod .accordionItemContent { width: 40%; top: 170px; left: 73px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 281, sass/07-templates/_our-methodology.scss */ .t-our-methodology__cod .accordionItemContent { width: 40%; top: 170px; left: 73px; } }
 
-/* line 290, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price { z-index: 93; }
+/* line 291, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price { z-index: 93; }
 
-@media (min-width: 1200px) { /* line 290, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price { width: 90%; left: 232px; } }
+@media (min-width: 1200px) { /* line 291, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price { width: 90%; left: 232px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 290, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price { left: 5px; width: 90%; z-index: 99; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 291, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price { left: 5px; width: 90%; z-index: 99; } }
 
-@media (min-width: 1200px) { /* line 303, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price span { left: 86%; width: 63px; } }
+@media (min-width: 1200px) { /* line 304, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price span { left: 86%; width: 63px; } }
 
-@media (min-width: 1200px) { /* line 310, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price h3 { left: -210px; } }
+@media (min-width: 1200px) { /* line 311, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price h3 { left: -210px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 310, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price h3 { left: 12px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 311, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price h3 { left: 12px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 320, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price .accordionItemContent { width: 40%; top: 115px; left: 75px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 321, sass/07-templates/_our-methodology.scss */ .t-our-methodology__price .accordionItemContent { width: 40%; top: 115px; left: 75px; } }
 
-/* line 329, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact { z-index: 9; }
+/* line 330, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact { z-index: 9; }
 
-@media (min-width: 1200px) { /* line 329, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact { width: 100%; left: 38%; } }
+@media (min-width: 1200px) { /* line 330, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact { width: 100%; left: 38%; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 329, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact { left: -8%; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 330, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact { left: -8%; } }
 
-@media (min-width: 1200px) { /* line 340, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact span { left: 85%; width: 63px; } }
+@media (min-width: 1200px) { /* line 341, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact span { left: 85%; width: 63px; } }
 
-@media (min-width: 1200px) { /* line 347, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact h3 { left: -274px; } }
+@media (min-width: 1200px) { /* line 348, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact h3 { left: -274px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 347, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact h3 { left: 26px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 348, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact h3 { left: 26px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 357, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact .accordionItemContent { width: 40%; top: 159px; left: 77px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 358, sass/07-templates/_our-methodology.scss */ .t-our-methodology__contact .accordionItemContent { width: 40%; top: 159px; left: 77px; } }
 
-/* line 368, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test { z-index: 119; }
+/* line 369, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test { z-index: 119; }
 
-@media (min-width: 1200px) { /* line 368, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test { width: 67%; left: 293px; } }
+@media (min-width: 1200px) { /* line 369, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test { width: 67%; left: 293px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 368, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test { width: 69%; left: 76px; z-index: 213; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 369, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test { width: 69%; left: 76px; z-index: 213; } }
 
-@media (min-width: 1200px) { /* line 381, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test h3 { left: -45px; } }
+@media (min-width: 1200px) { /* line 382, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test h3 { left: -45px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 387, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test .accordionItemContent { top: 124px; width: 40%; left: 77px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 388, sass/07-templates/_our-methodology.scss */ .t-our-methodology__test .accordionItemContent { top: 124px; width: 40%; left: 77px; } }
 
-/* line 397, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor { z-index: 180; }
+/* line 398, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor { z-index: 180; }
 
-@media (min-width: 1200px) { /* line 397, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor { width: 57%; left: 320px; } }
+@media (min-width: 1200px) { /* line 398, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor { width: 57%; left: 320px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 397, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor { left: 93px; width: 64%; z-index: 220; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 398, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor { left: 93px; width: 64%; z-index: 220; } }
 
-@media (min-width: 1200px) { /* line 411, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3 { left: 0; } }
+@media (min-width: 1200px) { /* line 412, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3 { left: 0; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 411, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3 { left: 7px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 412, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor h3 { left: 7px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 421, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor .accordionItemContent { width: 40%; top: 135px; left: 140px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 422, sass/07-templates/_our-methodology.scss */ .t-our-methodology__dor .accordionItemContent { width: 40%; top: 135px; left: 140px; } }
 
-/* line 431, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin { z-index: 120; }
+/* line 432, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin { z-index: 120; }
 
-@media (min-width: 1200px) { /* line 431, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin { width: 70%; left: 195px; } }
+@media (min-width: 1200px) { /* line 432, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin { width: 70%; left: 195px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 431, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin { width: 70%; left: 13px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 432, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin { width: 70%; left: 13px; } }
 
-@media (min-width: 1200px) { /* line 443, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3 { left: 70px; } }
+@media (min-width: 1200px) { /* line 444, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3 { left: 70px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 443, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3 { left: 60px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 444, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin h3 { left: 60px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 453, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin .accordionItemContent { top: 126px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 454, sass/07-templates/_our-methodology.scss */ .t-our-methodology__fin .accordionItemContent { top: 126px; } }
 
 /* line 461, sass/07-templates/_our-methodology.scss */ .t-our-methodology__admin { z-index: 118; }
 
@@ -574,37 +574,37 @@
 
 @media (min-width: 800px) and (max-width: 1199px) { /* line 515, sass/07-templates/_our-methodology.scss */ .t-our-methodology__wiz .accordionItemContent { width: 40%; left: 620px; top: 169px; } }
 
-/* line 526, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def { height: 50px; }
+/* line 524, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def { height: 50px; }
 
-@media (min-width: 1200px) { /* line 526, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def { left: 270px; top: 8px !important; height: 90px; } }
+@media (min-width: 1200px) { /* line 524, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def { left: 270px; top: 8px !important; height: 90px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 526, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def { left: 17px; top: 21px !important; height: 68px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 524, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def { left: 17px; top: 21px !important; height: 68px; } }
 
-@media (min-width: 1200px) { /* line 541, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def h3 { left: 118px; } }
+@media (min-width: 1200px) { /* line 539, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def h3 { left: 118px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 541, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def h3 { left: 110px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 539, sass/07-templates/_our-methodology.scss */ .t-our-methodology__def h3 { left: 110px; } }
 
-/* line 553, sass/07-templates/_our-methodology.scss */ .accordionItemContent.close { display: none; height: 0px; transition: height 1s ease-out; -webkit-transform: scaleY(0); transform: scaleY(0); float: left; }
+/* line 551, sass/07-templates/_our-methodology.scss */ .accordionItemContent.close { display: none; height: 0px; transition: height 1s ease-out; -webkit-transform: scaleY(0); transform: scaleY(0); float: left; }
 
-/* line 562, sass/07-templates/_our-methodology.scss */ .accordionItem { float: left; display: block; width: 100%; box-sizing: border-box; }
+/* line 560, sass/07-templates/_our-methodology.scss */ .accordionItem { float: left; display: block; width: 100%; box-sizing: border-box; }
 
-/* line 569, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { padding: 20px; background-color: #ebebeb; border: 1px solid #9e9e9e; color: #787878; margin: 0px 0px 10px 0px; display: block; -webkit-transform: scaleY(1); transform: scaleY(1); -webkit-transform-origin: top; transform-origin: top; transition: -webkit-transform 0.4s ease; transition: transform 0.4s ease; transition: transform 0.4s ease, -webkit-transform 0.4s ease; box-sizing: border-box; position: absolute; z-index: 100; }
+/* line 567, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { padding: 20px; background-color: #ebebeb; border: 1px solid #9e9e9e; color: #787878; margin: 0px 0px 10px 0px; display: block; -webkit-transform: scaleY(1); transform: scaleY(1); -webkit-transform-origin: top; transform-origin: top; transition: -webkit-transform 0.4s ease; transition: transform 0.4s ease; transition: transform 0.4s ease, -webkit-transform 0.4s ease; box-sizing: border-box; position: absolute; z-index: 100; }
 
-@media (min-width: 1200px) { /* line 569, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { width: 100%; } }
+@media (min-width: 1200px) { /* line 567, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { width: 100%; } }
 
-@media (min-width: 800px) { /* line 569, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { position: fixed; } }
+@media (min-width: 800px) { /* line 567, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { position: fixed; } }
 
-@media (min-width: 1200px) { /* line 569, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { top: 70px; } }
+@media (min-width: 1200px) { /* line 567, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { top: 70px; } }
 
-@media (max-width: 800px) and (min-width: 400px) { /* line 569, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { top: 44px; left: 0; margin-bottom: 30px; } }
+@media (max-width: 800px) and (min-width: 400px) { /* line 567, sass/07-templates/_our-methodology.scss */ .accordionItemContent.open { top: 44px; left: 0; margin-bottom: 30px; } }
 
-@media (min-width: 1200px) { /* line 603, sass/07-templates/_our-methodology.scss */ .narrowchartOne { margin-top: 58px; } }
+@media (min-width: 1200px) { /* line 601, sass/07-templates/_our-methodology.scss */ .narrowchartOne { margin-top: 58px; } }
 
-@media (min-width: 800px) { /* line 611, sass/07-templates/_our-methodology.scss */ .narrowchartOne .t-our-methodology--size { left: 0; right: 498px; } }
+@media (min-width: 800px) { /* line 609, sass/07-templates/_our-methodology.scss */ .narrowchartOne .t-our-methodology--size { left: 0; right: 498px; } }
 
-/* line 680, sass/07-templates/_our-methodology.scss */ .ui-icon-triangle-1-e { position: relative; }
+/* line 618, sass/07-templates/_our-methodology.scss */ .ui-icon-triangle-1-e { position: relative; }
 
-@media (min-width: 800px) { /* line 684, sass/07-templates/_our-methodology.scss */ .fa { margin-left: 4px; } }
+@media (min-width: 800px) { /* line 622, sass/07-templates/_our-methodology.scss */ .fa { margin-left: 4px; } }
 
 /* line 1, sass/07-templates/_site-footer.scss */ .t-site-footer { padding-left: 15px; padding-right: 15px; }
 

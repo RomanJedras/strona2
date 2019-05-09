@@ -1,7 +1,7 @@
 .t-our-company {
   padding-bottom: $grid-base * 3.4;
   @include large-up {
-  padding-top: $grid-base * 14;
+    padding-top: $grid-base * 14;
   }
   position: relative;
 
@@ -56,7 +56,7 @@
   }
 
   &__btn {
-    @include  medium-up {
+    @include medium-up {
       margin-bottom: $grid-base * 2.5;
     }
     margin: 0 23px;
