@@ -218,29 +218,29 @@
 
 @media (min-width: 1200px) { /* line 1, sass/07-templates/_our-company.scss */ .t-our-company { padding-top: 140px; } }
 
-/* line 9, sass/07-templates/_our-company.scss */ .t-our-company h2 { font-weight: normal; }
+/* line 9, sass/07-templates/_our-company.scss */ .t-our-company h2 { font-weight: normal; margin-bottom: 60px; }
 
-/* line 14, sass/07-templates/_our-company.scss */ .t-our-company__left { margin-bottom: 40px; }
+/* line 15, sass/07-templates/_our-company.scss */ .t-our-company__left { margin-bottom: 40px; }
 
-@media (min-width: 1200px) { /* line 18, sass/07-templates/_our-company.scss */ .t-our-company__left p { line-height: 46px; font-size: 1.5rem; } }
+@media (min-width: 1200px) { /* line 19, sass/07-templates/_our-company.scss */ .t-our-company__left p { line-height: 46px; font-size: 1.5rem; } }
 
-@media (min-width: 800px) { /* line 14, sass/07-templates/_our-company.scss */ .t-our-company__left { margin-bottom: 0; } }
+@media (min-width: 800px) { /* line 15, sass/07-templates/_our-company.scss */ .t-our-company__left { margin-bottom: 0; } }
 
-/* line 31, sass/07-templates/_our-company.scss */ .t-our-company__box { padding: 30px; }
+/* line 32, sass/07-templates/_our-company.scss */ .t-our-company__box { padding: 30px; }
 
-@media (min-width: 1200px) { /* line 31, sass/07-templates/_our-company.scss */ .t-our-company__box { position: relative; right: 0; top: -111px; } }
+@media (min-width: 1200px) { /* line 32, sass/07-templates/_our-company.scss */ .t-our-company__box { position: relative; right: 0; top: -111px; } }
 
-/* line 41, sass/07-templates/_our-company.scss */ .t-our-company__right { text-align: center; }
+/* line 42, sass/07-templates/_our-company.scss */ .t-our-company__right { text-align: center; }
 
-@media (min-width: 1200px) { /* line 41, sass/07-templates/_our-company.scss */ .t-our-company__right { margin-top: 78px; } }
+@media (min-width: 1200px) { /* line 42, sass/07-templates/_our-company.scss */ .t-our-company__right { margin-top: 78px; } }
 
-@media (min-width: 800px) and (max-width: 1199px) { /* line 41, sass/07-templates/_our-company.scss */ .t-our-company__right { margin-top: -50px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 42, sass/07-templates/_our-company.scss */ .t-our-company__right { margin-top: -50px; } }
 
-/* line 52, sass/07-templates/_our-company.scss */ .t-our-company__buttons { display: flex; flex-wrap: wrap; }
+/* line 53, sass/07-templates/_our-company.scss */ .t-our-company__buttons { display: flex; flex-wrap: wrap; }
 
-/* line 57, sass/07-templates/_our-company.scss */ .t-our-company__btn { margin: 0 23px; }
+/* line 58, sass/07-templates/_our-company.scss */ .t-our-company__btn { margin: 0 23px; }
 
-@media (min-width: 800px) { /* line 57, sass/07-templates/_our-company.scss */ .t-our-company__btn { margin-bottom: 25px; } }
+@media (min-width: 800px) { /* line 58, sass/07-templates/_our-company.scss */ .t-our-company__btn { margin-bottom: 25px; } }
 
 /* line 1, sass/07-templates/_our-contact.scss */ .t-our-contact { margin-bottom: 90px; }
 
