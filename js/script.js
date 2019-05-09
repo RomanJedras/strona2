@@ -9,26 +9,24 @@ const header = document.getElementById('header');
 //const number = document.getElementById('number');
 header.style.display = 'none';
 
-interact('.drag-drop')
-.draggable({
-	inertia: true,
-	modifiers: [
-		interact.modifiers.restrict({
-			restriction: "parent",
-			endOnly: true,
-			elementRect: {top: 0, left: 0, bottom: 1, right: 1}
-		})
-	],
-	autoScroll: true,
-	// dragMoveListener from the dragging demo above
-	onmove: dragMoveListener,
-	onend: function (event) {
-	}
-});
+// interact('.drag-drop')
+// .draggable({
+// 	inertia: true,
+// 	modifiers: [
+// 		interact.modifiers.restrict({
+// 			restriction: "parent",
+// 			endOnly: true,
+// 			elementRect: {top: 0, left: 0, bottom: 1, right: 1}
+// 		})
+// 	],
+// 	autoScroll: true,
+// 	// dragMoveListener from the dragging demo above
+// 	onmove: dragMoveListener,
+// 	onend: function (event) {
+// 	}
+// });
 
 let sqaure = document.querySelector(".t-our-methodology__square");
-
-
 let playerPick = document.querySelectorAll('.accordianheader');
 let accordionItem = document.querySelectorAll('.accordionItemContent');
 
@@ -152,6 +150,7 @@ function showModal(playerPick) {
 				map: map,
 				animation: google.maps.Animation.DROP,
 				icon: image,
+			    label: 'Agencja interaktywna',
 				shape: shape,
 				title: 'Pierwszy marker!'
 			});
