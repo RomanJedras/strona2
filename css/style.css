@@ -234,7 +234,7 @@
 
 @media (min-width: 1200px) { /* line 41, sass/07-templates/_our-company.scss */ .t-our-company__right { margin-top: 78px; } }
 
-@media (min-width: 800px) { /* line 41, sass/07-templates/_our-company.scss */ .t-our-company__right { margin-top: -50px; } }
+@media (min-width: 800px) and (max-width: 1199px) { /* line 41, sass/07-templates/_our-company.scss */ .t-our-company__right { margin-top: -50px; } }
 
 /* line 52, sass/07-templates/_our-company.scss */ .t-our-company__buttons { display: flex; flex-wrap: wrap; }
 
