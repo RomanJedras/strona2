@@ -152,7 +152,7 @@ function showModal(playerPick) {
 				icon: image,
 			    label: 'Agencja interaktywna',
 				shape: shape,
-				title: 'Pierwszy marker!'
+				title: 'Agencja interaktywna!'
 			});
 		};
 	}
