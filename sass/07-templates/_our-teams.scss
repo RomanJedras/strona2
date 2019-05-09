@@ -1,0 +1,48 @@
+.t-our-teams {
+  margin-top: $grid-base * 5;
+
+  h2 {
+    font-size: $font-size-3;
+    font-weight: normal;
+    @include large-up {
+      font-size: $font-size-1;
+      margin-bottom: $grid-base * 5.8;
+    }
+  }
+
+  &__body {
+    background-color: $gray-bg;
+  }
+
+  &--content {
+    padding: $grid-base * 2;
+    @include medium-down {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+
+
+
+  &__name {
+    color: $heading-gray;
+    @include large-up {
+      padding: 0 35px;
+      font-size: $grid-base * 2.1;
+    }
+  }
+
+  &__jobs {
+    color: $teams-color;
+    font-size: $grid-base * 2;
+  }
+}
+
+
+
+
+
+
+
+

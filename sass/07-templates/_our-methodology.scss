@@ -1,0 +1,688 @@
+.t-our-methodology {
+  margin-top: $grid-base * 5.8;
+  margin-bottom: $grid-base;
+  @include medium-up {
+    margin-bottom: $grid-base * 12;
+  }
+  cursor: pointer;
+
+  h2 {
+    @include medium-high {
+      padding: $grid-base * 2;
+    }
+  }
+
+  &--large {
+    display: none;
+    @include medium-up {
+      display: block;
+    }
+  }
+
+  &--small {
+    display: block;
+    margin-bottom: $grid-base * 9;
+    @include medium-up {
+      display: none;
+    }
+  }
+
+  h3 {
+    &:focus {
+      width: 75%;
+    }
+  }
+
+  &--size {
+    font-size: $grid-base * 4.4;
+    @include large-up {
+      font-size: $grid-base * 9;
+      font-weight: bold;
+      top: -  $grid-base * 2.4;
+      right: 0;
+      opacity: .2;
+    }
+    position: absolute;
+    top: -7px;
+    right: 21px;
+    opacity: .5;
+
+    &:hover {
+      color: $teams-color;
+    }
+  }
+
+
+  &__border {
+
+    &--none {
+      @include medium-up {
+        border: none;
+      }
+    }
+    border-right: 1px solid $blue-dark;
+    position: relative;
+  }
+
+  &__square {
+  @include medium-up {
+    position: absolute;
+    background-color: $teams-color;
+    width: 65px;
+    height: 68px;
+
+    @include medium-high {
+      width: 53px;
+      height: 51px;
+      bottom: 0;
+      font-size: $grid-base * 3.2;
+    }
+
+    transform: translate(30%, 10%);
+    @include large-up {
+      width: $grid-base * 6;
+      height: $grid-base * 6;
+      font-size: $grid-base * 4.4;
+      left: 91%;
+    }
+
+    left: 88%;
+    bottom: $grid-base * 2.2;
+    z-index: 1;
+  }
+  }
+
+  .trans {
+    transition: bottom 4s ease 0s;
+  }
+
+  .price {
+   @extend  .trans;
+    @include large-up {
+      bottom: $grid-base * 12;
+    }
+    @include  medium-high {
+      bottom: $grid-base * 4.6;
+    }
+  }
+
+  .contact,
+  .def {
+    @extend  .trans;
+    @include  large-up {
+      bottom: $grid-base * 4.5;
+    }
+    @include medium-high {
+      bottom: $grid-base * 2;
+    }
+  }
+
+
+  .contact {
+    @include medium-high {
+      bottom: 0;
+    }
+  }
+
+  .cod {
+    @extend  .trans;
+    @include large-up {
+      bottom: $grid-base * 19.1;
+    }
+    @include medium-high {
+      bottom: $grid-base * 9;
+    }
+  }
+
+  .test {
+    @extend  .trans;
+    @include large-up {
+      bottom: $grid-base * 27.4;
+    }
+    @include medium-high {
+      bottom: $grid-base * 13.4;
+    }
+  }
+
+  .wiz {
+    @extend  .trans;
+    @include large-up {
+      bottom: $grid-base * 14.6;
+    }
+    @include medium-high {
+      bottom: $grid-base * 8.6;
+    }
+  }
+
+  .admin {
+    @extend  .trans;
+    @include large-up {
+      bottom: $grid-base * 22.1;
+    }
+    @include medium-high {
+      bottom: $grid-base * 13.9;
+    }
+  }
+
+  .fin {
+    @extend  .trans;
+    @include large-up {
+      bottom: $grid-base * 29.3;
+    }
+    @include medium-high {
+      bottom: $grid-base * 18.5;
+    }
+  }
+
+  .dor {
+    @extend  .trans;
+    @include large-up {
+      bottom: $grid-base * 31.2;
+    }
+    @include medium-high {
+      bottom: $grid-base * 19.2;
+    }
+  }
+
+
+  .narrow {
+    position: relative;
+    padding: $grid-base;
+    border-bottom: 1px solid $triangle-border;
+    top: 50%;
+    //@include small-up {
+    //  left: 50%;
+    //}
+    @include large-up {
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__dor,
+  &__test,
+  &__price,
+  &__contact,
+  &__cod {
+    @extend .narrow;
+
+    h3 {
+      position: relative;
+      @include large-up {
+        font-size: $grid-base * 3.6;
+        font-weight: normal;
+        text-align: right;
+      }
+      color: $gray-dark;
+
+      &:hover {
+        color: $teams-color;
+      }
+    }
+  }
+
+  &__fin,
+  &__admin,
+  &__wiz,
+  &__def {
+    @extend .narrow;
+
+    h3 {
+      font-size: $font-base-size;
+      position: relative;
+      @include large-up {
+        font-size: $grid-base * 3.6;
+        font-weight: normal;
+        text-align: left;
+      }
+      color: $gray-dark;
+
+      &:hover {
+        color: $teams-color;
+      }
+    }
+
+    .accordionItemContent {
+      @include medium-high {
+        width: 40%;
+        top: $grid-base * 15.8;
+        left: $grid-base * 63;
+      }
+    }
+
+  }
+
+  &__cod {
+    z-index: 117;
+    @include large-up {
+      z-index: 98
+    }
+
+    @include medium-high {
+      z-index: 212;
+    }
+
+    @include large-up {
+      width: 80%;
+      left: $grid-base * 25.3;
+    }
+
+    @include medium-high {
+      width: 80%;
+      left: $grid-base * 3.8;
+    }
+
+    h3 {
+      @include large-up {
+        left: - $grid-base * 8.5;
+      }
+    }
+
+    .accordionItemContent {
+      @include medium-high {
+        width: 40%;
+        top: $grid-base * 17;
+        left: $grid-base * 7.3;
+      }
+    }
+
+  }
+
+  &__price {
+    z-index: 93;
+    @include large-up {
+      width: 90%;
+      left: $grid-base * 23.2;
+    }
+
+    @include medium-high {
+      left: 5px;
+      width: 90%;
+      z-index: 99;
+    }
+
+    span {
+      @include  large-up {
+        left: 86%;
+        width: $grid-base * 6.3;
+      }
+    }
+
+    h3 {
+      @include large-up {
+        left: -$grid-base * 21;
+      }
+
+      @include medium-high {
+        left: $grid-base * 1.2;
+      }
+    }
+
+    .accordionItemContent {
+      @include medium-high {
+        width: 40%;
+        top: $grid-base * 11.5;
+        left: $grid-base * 7.5;
+      }
+    }
+  }
+
+  &__contact {
+    z-index: 9;
+    @include large-up {
+      width: 100%;
+      left: 38%;
+    }
+
+    @include medium-high {
+      left: -8%
+    }
+
+    span {
+      @include large-up {
+        left: 85%;
+        width: $grid-base * 6.3;
+      }
+    }
+
+    h3 {
+      @include large-up {
+        left: - $grid-base * 27.4;
+      }
+
+      @include medium-high {
+        left: $grid-base * 2.6;
+      }
+    }
+
+    .accordionItemContent {
+      @include medium-high {
+        width: 40%;
+        top: $grid-base * 15.9;
+        left: $grid-base * 7.7;
+      }
+    }
+
+
+  }
+
+  &__test {
+    z-index: 119;
+    @include large-up {
+      width: 67%;
+      left: $grid-base * 29.3;
+    }
+
+    @include medium-high {
+      width: 69%;
+      left: $grid-base * 7.6;
+      z-index: 213;
+      }
+
+    h3 {
+      @include large-up {
+        left: - $grid-base * 4.5;
+      }
+    }
+
+    .accordionItemContent {
+      @include medium-high {
+        top: $grid-base * 12.4;
+        width: 40%;
+        left: $grid-base * 7.7;
+      }
+    }
+
+  }
+
+  &__dor {
+    z-index: 180;
+    @include large-up {
+      width: 57%;
+      left: $grid-base * 32;
+    }
+
+    @include medium-high {
+      left: $grid-base * 9.3;
+      width: 64%;
+      z-index: 220;
+    }
+
+
+    h3 {
+      @include large-up {
+        left: 0;
+      }
+
+      @include medium-high {
+        left: 7px;
+      }
+    }
+
+    .accordionItemContent {
+
+      @include medium-high {
+            width: 40%;
+            top: $grid-base * 13.5;
+            left: $grid-base * 14.0;
+          }
+        }
+  }
+
+  &__fin {
+    z-index: 120;
+    @include large-up {
+      width: 70%;
+      left: $grid-base * 19.5;
+    }
+
+    @include medium-high {
+      width: 70%;
+      left: $grid-base * 1.3;
+    }
+
+    h3 {
+      @include large-up {
+        left:  $grid-base * 7;
+      }
+      @include medium-high {
+        left:  $grid-base * 6;
+      }
+
+    }
+
+    .accordionItemContent {
+      @include medium-high {
+        top: $grid-base * 12.6;
+      }
+    }
+
+  }
+
+  &__admin {
+    z-index: 118;
+    @include large-up {
+      width: 80%;
+      left: $grid-base * 22.4;
+    }
+
+    @include medium-high {
+      left:  $grid-base * 1.2;
+      width: 80%;
+    }
+
+    h3 {
+      @include large-up {
+        left: $grid-base * 7;
+      }
+
+      @include medium-high {
+        left: $grid-base * 9;
+      }
+    }
+
+    .accordionItemContent {
+      @include medium-high {
+        width: 40%;
+        top: $grid-base * 12.4;
+        left: $grid-base * 62.7;
+      }
+    }
+
+  }
+
+  &__wiz {
+    z-index: 98;
+    @include large-up {
+      width: 90%;
+      left: $grid-base * 24.5;
+    }
+
+    @include medium-high {
+      left:  $grid-base;
+      width: 87%;
+    }
+
+    h3 {
+      @include large-up {
+        left: $grid-base * 10.3;
+      }
+
+      @include medium-high {
+        left: $grid-base * 14;
+      }
+    }
+
+    .accordionItemContent {
+      @include medium-high {
+        width: 40%;
+        left: $grid-base * 62;
+        top: $grid-base * 16.9;
+      }
+    }
+
+  }
+
+
+  &__def {
+    @include large-up {
+      left: $grid-base * 27;
+      top: 8px !important;
+      height: 90px;
+    }
+
+    @include medium-high {
+      left: $grid-base * 1.7;
+      top: $grid-base* 2.1 !important;
+      height: $grid-base * 6.8;
+    }
+
+    height: $grid-base * 5;
+
+    h3 {
+      @include large-up {
+        left: $grid-base * 11.8;
+      }
+
+      @include medium-high {
+        left: $grid-base * 11;
+      }
+    }
+  }
+}
+
+.accordionItemContent.close {
+  display: none;
+  height: 0px;
+  transition: height 1s ease-out;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  float: left;
+}
+
+.accordionItem{
+  float: left;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.accordionItemContent.open {
+  padding: 20px;
+  background-color: $gray-bg;
+  border: 1px solid $gray-dark;
+  color: $heading-gray;
+  @include large-up {
+    width: 100%;
+  }
+  margin: 0px 0px 10px 0px;
+  display: block;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+  box-sizing: border-box;
+  @include medium-up {
+    position: fixed;
+  }
+  position: absolute;
+  z-index: 100;
+  @include large-up {
+    top: $grid-base *7;
+  }
+
+  @include medium-down {
+    top: $grid-base * 4.4;
+    left: 0;
+    margin-bottom: 30px;
+  }
+}
+
+.narrowchartOne {
+
+  @include large-up {
+    margin-top: $grid-base * 5.8;
+  }
+
+  .t-our-methodology {
+
+    &--size {
+      @include medium-up {
+        left: 0;
+        right: $grid-base * 49.8;
+      }
+    }
+  }
+}
+
+//.overlay {
+//  display: none;
+//  position: fixed;
+//  max-width: 100%;
+//  height: auto;
+//  top: $grid-base * 4;
+//  background-color: $blue-dark;
+//  margin-left: $grid-base * 6.3;
+//  margin-right: $grid-base * 6.3;
+//  @include  large-up {
+//    width: $grid-base * 52.5;
+//    top:   $grid-base * 15;
+//    left: 50%;
+//  }
+//  left: 0;
+//  z-index: 100;
+//  padding: $grid-base * 2;
+//    &.show {
+//    display: block;
+//  }
+//}
+//
+//.modal {
+//  display: none;
+//  background: $heading-back;
+//  color: $white;
+//  width: 100%;
+//  height: $grid-base * 28;
+//  cursor: pointer;
+//
+//  h3,
+//  ul {
+//      padding: $grid-base * 2;
+//     }
+//
+//
+//
+//  @include  large-up {
+//    @include centererPos();
+//  }
+//  min-height: 100%;
+//  overflow-y: auto;
+//
+//  &.show {
+//    display: block;
+//  }
+//
+//  .close {
+//    position: absolute;
+//    right: 0;
+//    top: 0;
+//    padding: 5px;
+//    color: $white;
+//    @include large-up {
+//      color: $black;
+//    }
+//    text-decoration: none;
+//  }
+//}
+
+.ui-icon-triangle-1-e {
+  position: relative;
+}
+
+.fa {
+ @include medium-up {
+   margin-left: 4px;
+ }
+}

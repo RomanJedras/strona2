@@ -1,0 +1,101 @@
+.t-site-header {
+
+  &--link {
+    display: flex;
+    justify-content: center;
+    @include large-up {
+    display: inline-block;
+    padding: 2px 0;
+    }
+  }
+
+  &--sticky {
+    padding-bottom: $grid-base;
+    padding-top: $grid-base - 5;
+  }
+
+  &__top {
+    @include large-up {
+      padding-top: $grid-base* 2.5;
+    }
+  }
+
+  &__menu {
+    margin-top: $grid-base * 2;
+
+    @include large-up {
+      text-align: right;
+      margin-top: 0;
+    }
+  }
+
+  &__divider {
+    margin-top: $grid-base * 5;
+    @include large-up {
+      margin-top: $grid-base * 10;
+    }
+  }
+
+  &__video video {
+    width: 100%;
+    height: auto;
+    @include large-up {
+      position: absolute;
+      top: 120px;
+      transform: translate(-44%, -24%);
+      width: 750px;
+    }
+  }
+
+  &__hero {
+    @include large-up {
+      padding-bottom: $grid-base * 5;
+      padding-top: $grid-base * 5;
+    }
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+    @include large-up {
+      padding-bottom: $grid-base * 21;
+      padding-top: $grid-base * 5;
+      max-width: 1130px;
+      position: relative;
+    }
+  }
+
+  &__intro-text {
+    color: $white;
+    font-size: $font-size-4;
+    margin-bottom: $grid-base * 2;
+    margin-top: $grid-base * 3;
+
+    @include large-up {
+      font-size: $font-size-3;
+      line-height: 1.65;
+      margin-bottom: $grid-base * 6;
+    }
+  }
+
+}
+
+.t-site-content {
+  @include large-up {
+    margin-top: -$grid-base * 7;
+  }
+
+  h1 {
+    font-size: $font-size-2;
+    @include large-up {
+      font-size: $font-size-1;
+    }
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+}
+
+.top-container {
+  display: none;
+}

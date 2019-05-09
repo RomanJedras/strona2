@@ -1,0 +1,64 @@
+.t-our-company {
+  padding-bottom: $grid-base * 3.4;
+  @include large-up {
+  padding-top: $grid-base * 14;
+  }
+  position: relative;
+
+
+  h2 {
+    font-weight: normal;
+    margin-bottom: $grid-base * 6;
+  }
+
+
+  &__left {
+    margin-bottom: $grid-base * 4;
+
+
+    p {
+      @include large-up {
+        line-height: $grid-base * 4.6;
+        font-size: $font-size-2;
+      }
+    }
+
+
+    @include medium-up {
+      margin-bottom: 0;
+    }
+  }
+
+  &__box {
+    padding: 30px;
+
+    @include large-up {
+      position: relative;
+      right: 0;
+      top: -$grid-base * 11.1;
+    }
+  }
+
+  &__right {
+    text-align: center;
+
+    @include large-up {
+      margin-top: $grid-base * 7.8;
+    }
+    @include medium-high {
+      margin-top: -$grid-base * 5;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__btn {
+    @include  medium-up {
+      margin-bottom: $grid-base * 2.5;
+    }
+    margin: 0 23px;
+  }
+}

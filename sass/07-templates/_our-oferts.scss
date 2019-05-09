@@ -1,0 +1,69 @@
+.t-our-offerts {
+
+  padding-bottom: $grid-base * 4;
+  padding-top: $grid-base * 2;
+
+
+  h2 {
+    @include  medium-up {
+      font-size: 36px;
+    }
+  }
+
+
+  &__item {
+    padding-bottom: $grid-base * 2;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+
+    li {
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: bold;
+    }
+
+  }
+
+  .charge {
+    margin-left: $grid-base * 3.5;
+    margin-right: $grid-base * 3.5;
+    margin-bottom: $grid-base * 2.7;
+  }
+
+  &--gray {
+    background-color: $gray-bg;
+  }
+
+  &--move {
+    height: auto;
+    padding: 20px;
+    @include medium-up {
+      margin-bottom: 20px;
+    }
+    &__h {
+      margin: 0 auto 20px;
+    }
+
+    margin: 0 auto 20px;
+    @include large-up {
+      margin: 27px 45px;
+    }
+  }
+
+
+  &--white {
+    background-color: $white;
+    height: auto;
+
+    @include  large-up {
+      height: auto;
+      margin-left: $grid-base * 3.5;
+      margin-right: $grid-base * 3.5;
+      margin-bottom: $grid-base * 2.7;
+    }
+  }
+
+
+}

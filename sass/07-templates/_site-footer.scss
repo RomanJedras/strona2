@@ -1,0 +1,137 @@
+.t-site-footer {
+  padding-left: $gutter;
+  padding-right: $gutter;
+
+  a {
+    color : $heading-gray;
+    @include medium-up {
+      font-size: $grid-base * 2.4;
+    }
+    &:hover {
+        color: $menu-footer-hv;
+      }
+  }
+
+  & .o-row {
+    @include medium-up {
+      padding-bottom: $grid-base * 4;
+      padding-top: $grid-base * 5;
+    }
+    padding-bottom: $grid-base;
+    padding-top: $grid-base * 2;
+  }
+
+  &__item {
+    flex-basis: auto;
+    padding: $grid-base;
+    @include medium-up {
+      padding-left: $gutter;
+    }
+    margin: 0 auto;
+
+    &:first-child {
+      @include medium-up {
+        width: 28%;
+      }
+    }
+
+    &:nth-child(2) {
+      @include medium-up {
+        width: 28%;
+      }
+    }
+
+    &:nth-child(3) {
+      @include medium-up {
+        width: 25%;
+        margin-left: $grid-base * 10.3;
+      }
+    }
+
+    &:nth-child(4) {
+      @include medium-up {
+        width: 15%;
+      }
+    }
+  }
+
+  &__border {
+
+    &--first {
+    @include medium-down {
+      border-bottom: 1px solid;
+    }
+    }
+
+    @include medium-down {
+      border-bottom: 1px solid #ebebeb;
+      padding: 20px 0;
+    }
+
+    @include medium-up {
+      border-right: 1px solid;
+      position: absolute;
+      padding-right: $grid-base * 2.8;
+      padding-bottom: 7px;
+    }
+
+    @include medium-up {
+      padding-right: $grid-base * 2.2;
+    }
+  }
+
+  &__heading {
+    align-items: center;
+    display: flex;
+    height: $grid-base * 6;
+  }
+
+  &__text-heading {
+    color: $gray-dark;
+  }
+
+  &__address {
+    padding-top: $grid-base * 3;
+    @include medium-up {
+      padding-top: $grid-base * 2;
+    }
+    color: $teams-color;
+    strong {
+      font-size: $grid-base * 1.9;
+    }
+
+    p {
+      @include large-up {
+        font-size: $grid-base * 1.7;
+      }
+      font-size: $grid-base * 1.4;
+      white-space: nowrap;
+    }
+
+    text-align: center;
+    @include large-up {
+    text-align: left;
+    }
+  }
+
+  &__label {
+    display: block;
+    font-size: $font-size-5;
+    margin-bottom: $grid-base * 1;
+  }
+
+  &__contact-item {
+    line-height: $line-height-lg;
+    margin-bottom: $grid-base * 2;
+  }
+
+  &__copy {
+    padding-bottom: $grid-base * 2.5;
+    padding-top: $grid-base * 2.5;
+    font-size: $grid-base * 2.8;
+  }
+
+  &__copy-text {
+    font-size: $font-size-7;
+  }
+}

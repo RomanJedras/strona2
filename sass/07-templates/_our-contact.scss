@@ -1,0 +1,89 @@
+.t-our-contact {
+  margin-bottom: $grid-base * 9;
+  h3 {
+    @include large-up {
+      font-size: $grid-base * 5;
+      padding-bottom: $grid-base * 3;
+    }
+  }
+
+  &__social {
+    text-align: center;
+  }
+
+
+    &--note {
+    @include large-up {
+      margin: 0 $grid-base * 17.2;
+    }
+  }
+
+  textarea {
+    @include large-up {
+      height: $grid-base * 42.2 / 2  !important;
+    }
+    width: 100%;
+  }
+
+  .fas,
+  .far {
+    @include large-up {
+      font-size: $font-size-9;
+      color: #ebebeb;
+    }
+
+  }
+
+  .fa-pencil-alt {
+    display: flex;
+   @include large-up {
+     position: relative;
+     top: 80px;
+     left: -10%;
+   }
+
+  }
+}
+
+.t-our-contact__social {
+  height: auto;
+
+  .icons {
+    @include medium-up {
+      left: - $grid-base * 12;
+      position: relative;
+    }
+  }
+
+  &--email {
+    @include  large-up {
+      margin: $grid-base * 6 auto 0;
+      font-size: $font-size-3;
+    }
+
+    @include medium-high {
+      margin: 49px auto 0;
+    }
+
+    margin: $grid-base auto 0;
+    font-size: $font-size-4;
+    @include large-up {
+      font-size: $grid-base * 4;
+    }
+    color: $white;
+  }
+}
+
+.fab {
+  @include large-up {
+    margin: 50px 20px 0;
+    padding: $grid-base;
+  }
+  margin: 40px 20px 0;
+  background-color: transparent;
+  color: $white;
+  font-size: $grid-base * 6;
+}
+
+
+

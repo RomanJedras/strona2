@@ -1,0 +1,6 @@
+.t-our-map {
+  margin-bottom: $grid-base * 5;
+  @include large-up {
+    margin-bottom: $grid-base * 12;
+  }
+}
