@@ -99,7 +99,6 @@ sass/02-tools
 sass/03-generic
 sass/04-elements
 sass/05-objects
-sass/07-templates/*
 sass/08-utilities
 sass/style.css.map
 sass/04-elements/.sass-cache/
