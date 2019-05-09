@@ -314,6 +314,8 @@
 
 /* line 94, sass/07-templates/_site-header.scss */ .t-site-content h4 { font-size: 24px; }
 
+/* line 99, sass/07-templates/_site-header.scss */ .top-container { display: none; }
+
 /* line 1, sass/07-templates/_our-oferts.scss */ .t-our-offerts { padding-bottom: 40px; padding-top: 20px; }
 
 @media (min-width: 800px) { /* line 7, sass/07-templates/_our-oferts.scss */ .t-our-offerts h2 { font-size: 36px; } }
