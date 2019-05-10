@@ -334,7 +334,7 @@
 
 /* line 41, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move__h { margin: 0 auto 20px; }
 
-@media (min-width: 1200px) { /* line 35, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move { margin: 27px 45px; } }
+@media (min-width: 1200px) { /* line 35, sass/07-templates/_our-oferts.scss */ .t-our-offerts--move { margin: 27px 49px; } }
 
 /* line 51, sass/07-templates/_our-oferts.scss */ .t-our-offerts--white { background-color: #FFF; height: auto; }
 
