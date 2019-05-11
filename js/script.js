@@ -43,12 +43,13 @@ playerPick.forEach(function (item) {
 		
 	} else {
 		
-		item.addEventListener("click", function () {
+		item.addEventListener("click", function (event) {
 			
-			// for(let i =0; i < accordionItem.length; i++) {
-			// 	accordionItem[i].classList.replace('open','close');
-			// 	accordionItem[i].classList.remove('accordionItem');
-			// }
+			for(let i =0; i < accordionItem.length; i++) {
+				accordionItem[i].classList.replace('open','close');
+				//accordionItem[i].classList.remove('accordionItem');
+				event.stopPropagation();
+			}
 			
 			
 			this.querySelector('.accordionItemContent').classList.replace('open','close');
@@ -79,6 +80,20 @@ playerPick.forEach(function (item) {
 		});
 	}
 });
+
+let closeButtons = document.querySelectorAll('.closeModal');
+console.log(closeButtons)
+for (let i = 0; i < closeButtons.length; i++) {
+	closeButtons[i].addEventListener('click', hideModal);
+}
+
+function hideModal(event) {
+	event.preventDefault();
+	document.querySelector('.accordionItemContent').classList.add('accordionItem2');
+	document.querySelector('.accordionItemContent').classList.remove('open');
+}
+
+
 
 
 function dragMoveListener (event) {
